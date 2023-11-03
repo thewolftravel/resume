@@ -14,3 +14,10 @@ h2 {
     width: 100%;
   }
 }
+/* small screens */
+@media (min-width: 600px) and (max-width: 900px) {
+  .small-screen {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
